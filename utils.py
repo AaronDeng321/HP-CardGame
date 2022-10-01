@@ -1,5 +1,11 @@
 # 由于出现连接以后单元格会消失，所以表格信息需要进行初始化或是直接进行识别而弃用表格划分的思路
 
+import cv2
+
+filepath = "./samples/00.jpeg"
+img = cv2.imread(filepath)
+cv2.imshow
+
 # 获取表格（应该是四个表格信息）
 def get_table_coord():
     return
